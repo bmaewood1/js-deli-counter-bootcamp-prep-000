@@ -22,7 +22,7 @@ function currentLine(people) {
       for(var i = 0; i < people.length; i++) {
         line += `${i + 1}. ${people[i]}, `
       }
-      line = line.slice(0, line.length - 2)
+      line.slice(0, line.length - 2)
       return (`The line is currently: ${line}`)
     }
 }
